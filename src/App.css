@@ -4,6 +4,7 @@ body{
 .container{
   margin-top: 10px;
   width:100%;
+  background-color:grey;
 }
 .container>li{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
