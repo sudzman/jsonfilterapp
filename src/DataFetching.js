@@ -81,7 +81,7 @@ function DataFetching(){
                     </div>
                   <li key={album.id}>{album.title}
                   <br></br>
-                  <Link  to={`/${album.url}`} target="_blank">{album.url}</Link>
+                  <a  href={album.url} target="_blank">{album.url}</a>
                   </li>
                   </>
                        )) 
