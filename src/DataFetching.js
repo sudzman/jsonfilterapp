@@ -10,8 +10,8 @@ function DataFetching(){
  
 
     useEffect(()=>{
-          axios.get(`https://jsonplaceholder.typicode.com/albums?_limit=5`)
-          axios.get(`https://jsonplaceholder.typicode.com/photos?_limit=5`)
+          axios.get(`https://jsonplaceholder.typicode.com/albums?_limit=50`)
+          axios.get(`https://jsonplaceholder.typicode.com/photos?_limit=50`)
           .then(res=>(
               console.log(res.data),
               setAlbums(res.data),
