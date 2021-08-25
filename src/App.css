@@ -1,0 +1,12 @@
+
+.container{
+  margin-top: 10px;
+  width:100%;
+}
+.container>li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  list-style: none;
+  padding:10px;
+  margin:20px;
+}
